@@ -1,5 +1,9 @@
+try: rango = int(input("Inserte el rango de valores a analizar: "))
+except (ValueError): 
+    print("El dato insertado es incorrecto, vuevla a intentarlo")
+    int(input("Inserte el rango de valores a analizar: "))
+
 n = 2
-rango = int(input("Inserte el rango de valores a analizar: "))
 lp = [0]
 
 def is_prime(n, lp, rango):
